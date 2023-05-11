@@ -38,6 +38,7 @@ function verificar() {
             }else {
                 //caveira
                 img.setAttribute("src", "./imagens/caveira.png")
+                document.body.style.background = "black"
             }
             
         } else if (fsex[1].checked){
@@ -66,6 +67,8 @@ function verificar() {
             }else {
                 //caveira
                 img.setAttribute("src", "./imagens/caveira.png")
+                document.body.style.background = "black"
+
             }
         }
         res.innerHTML = `Detectamos ${sexo} com ${idade} anos`
